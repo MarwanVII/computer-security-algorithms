@@ -20,6 +20,7 @@ string encrypt(string output, int key)
 	}
 	return output;
 }
+
 string decrypt(string output, int key)
 {
 	for(auto &c:output)
@@ -39,6 +40,7 @@ string decrypt(string output, int key)
 	}
 	return output;
 }
+
 int main() {
 	string s;
 	int key;
